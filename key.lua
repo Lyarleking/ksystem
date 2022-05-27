@@ -1,7 +1,7 @@
 local key = _G.Key
-local check = "checkhere?key=" .. key
+local check = "https://raw.githubusercontent.com/Lyarleking/ksystem/main/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
-loadstring(game:HttpGet("scripthere"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lyarleking/AskGuru/main/UI.lua"))()
 else
 game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
 end
